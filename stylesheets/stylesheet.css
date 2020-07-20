@@ -55,7 +55,7 @@ section{
 nav{
   display: flex;
   flex-direction: column;
-  background: rgb(221, 221, 207);
+  background: rgb(226, 226, 216);
   width: 220px;
   height: 100vh;
   position: fixed;
@@ -67,7 +67,7 @@ nav{
   right: 0;
   height: 100%;
   width: 4px;
-  background: rgb(211, 211, 194);
+  background: rgb(219, 219, 206);
   color: #fff;
   border: 0px;
   outline: 0;
