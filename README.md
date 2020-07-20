@@ -1,2 +1,6 @@
-# resources
-Design Resources
+# Resources
+Design Resources!
+
+## In the works
+- UIUX Resources
+- Front-End Resources
