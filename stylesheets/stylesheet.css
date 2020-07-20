@@ -41,6 +41,10 @@ section{
   margin-left: 250px;
 }
 
+.definitions{
+  margin-bottom: 40px;
+}
+
 .definitions p{
   padding-left: 2em;
   text-indent:-2em;
@@ -96,6 +100,7 @@ h3{
   font-size: 1.2em;
   font-weight: 600;
   margin-bottom: 20px;
+  color: rgb(167, 137, 39);
 }
 
 nav a{
