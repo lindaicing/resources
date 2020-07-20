@@ -3,7 +3,7 @@ I'm working on compiling a list of design resources starting with UI/UX for begi
 
 
 ### UIUX Resources
-Build in progress:
+Build in progress
 
 
 
