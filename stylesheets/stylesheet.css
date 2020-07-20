@@ -54,6 +54,22 @@ section article:last-child{
   text-indent:-2em;
 }
 
+#key{
+  position: fixed;
+  right: 30px;
+}
+
+#key h3{
+  margin-bottom: 8px;
+}
+
+#key p{
+  font-size: 0.85em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
 /** Navigation **/
 
 nav{
@@ -87,6 +103,18 @@ footer{
 }
 
 /****/
+
+.recommended, .recommended a{
+ background: rgba(94, 170, 71, 0.384);
+ color: #fff;
+ padding: 0 2px;
+}
+
+.notrecommended, .notrecommended a{
+  background: rgba(255, 99, 99, 0.589);
+  color: #fff;
+  padding: 0 2px;
+}
 
 h1{
   font-size: 3em;
