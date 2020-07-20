@@ -1,0 +1,142 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  background: #eee;
+  color: #444;
+  font-family: 'Assistant', Arial, Helvetica, sans-serif;
+}
+
+section{
+  margin-bottom: 40px;
+}
+
+/** Landing Page **/
+
+#updates{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#updates article{
+  min-width: 240px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 3px solid rgb(221, 221, 207);
+  margin: 0 30px 30px 0;
+}
+
+/** Page Body **/
+
+#page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 30px;
+  margin-left: 250px;
+}
+
+.definitions p{
+  padding-left: 2em;
+  text-indent:-2em;
+}
+
+/** Navigation **/
+
+nav{
+  display: flex;
+  flex-direction: column;
+  background: rgb(221, 221, 207);
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  overflow: scroll;
+}
+
+#shrink{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 4px;
+  background: rgb(211, 211, 194);
+  color: #fff;
+  border: 0px;
+  outline: 0;
+  font-size: 0.8em;
+  padding-right: 8px;
+}
+
+footer{
+  width: 100%;
+  text-align: end;
+  position: absolute;
+  bottom: 0;
+}
+
+/****/
+
+h1{
+  font-size: 3em;
+  font-weight: 600;
+  margin: 10px 0 40px 0;
+}
+
+h2{
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+nav a{
+  display: block;
+  margin: 4px 30px 8px 16px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #333;
+}
+
+nav ul:first-child{
+  margin-top: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(199, 174, 32);
+  font-weight: 600;
+}
+
+p, ul li{
+  line-height: 1.5em;
+}
+
+#page ul li{
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+em{
+  font-weight: bold;
+}
+
+footer p{
+  margin-bottom: 0;
+}
+
+.currentPage{
+  background: rgb(236, 236, 229);
+}
+
+::selection{
+  background: rgba(224, 205, 94, 0.699);
+}
