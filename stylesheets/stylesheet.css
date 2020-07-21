@@ -43,17 +43,10 @@ section article:last-child{
   flex-direction: column;
   width: 100%;
   margin: 30px;
-  margin-left: 250px;
+  margin-left: 270px;
 }
 
-.definitions{
-  margin-bottom: 40px;
-}
-
-.definitions p{
-  padding-left: 2em;
-  text-indent:-2em;
-}
+/** Key **/
 
 #key{
   position: fixed;
@@ -68,8 +61,28 @@ section article:last-child{
   font-size: 0.85em;
   font-weight: bold;
   margin-bottom: 8px;
-  width: 100%;
+  padding-left: 0em;
+  text-indent: 0em;
+  padding: 0 2px;
 }
+
+.recommended, .recommended a{
+  background: rgb(145, 189, 132);
+  color: #fff;
+  padding: 0 2px;
+ }
+ 
+ .unfamiliar, .unfamiliar a{
+  background: rgb(142, 199, 209);
+  color: #fff;
+  padding: 0 2px;
+ }
+ 
+ .notrecommended, .notrecommended a{
+   background: rgb(238, 149, 149);
+   color: #fff;
+   padding: 0 2px;
+ }
 
 /** Navigation **/
 
@@ -104,24 +117,6 @@ footer{
 }
 
 /****/
-
-.recommended, .recommended a{
- background: rgb(145, 189, 132);
- color: #fff;
- padding: 0 2px;
-}
-
-.unfamiliar, .unfamiliar a{
- background: rgb(218, 211, 141);
- color: #fff;
- padding: 0 2px;
-}
-
-.notrecommended, .notrecommended a{
-  background: rgb(238, 149, 149);
-  color: #fff;
-  padding: 0 2px;
-}
 
 h3 .recommended, h3 .unfamiliar, h3 .notrecommended{
   padding: 2px 8px;
@@ -167,6 +162,11 @@ a{
   font-weight: 600;
 }
 
+p{
+  padding-left: 2em;
+  text-indent:-2em;
+}
+
 p, ul li{
   line-height: 1.5em;
 }
@@ -186,7 +186,7 @@ footer p{
 }
 
 .currentPage{
-  background: rgb(236, 236, 229);
+  background: #FFF;
 }
 
 ::selection{
