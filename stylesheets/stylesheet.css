@@ -11,6 +11,15 @@ body {
   font-family: 'Assistant', Arial, Helvetica, sans-serif;
 }
 
+#page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 40px;
+  margin-left: 270px;
+}
+
 section{
   margin-bottom: 60px;
 }
@@ -43,15 +52,20 @@ section article:last-child{
   max-width: 280px;
 }
 
-/** Page Body **/
+#googledoc{
+  display: block;
+  margin-top:16px;
+  padding:10px;
+  width: 200px;
+  border-radius: 100px;
+  background:rgb(201, 201, 186);
+  text-align: center;
+  font-weight: 400px;
+  color: #333;
+}
 
-#page {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 40px;
-  margin-left: 270px;
+#googledoc:hover{
+  opacity: 0.75;
 }
 
 /** Key **/
@@ -112,6 +126,10 @@ nav a{
   color: #333;
 }
 
+nav a:hover{
+  background:rgb(201, 201, 186);
+}
+
 nav ul:first-child{
   margin-top: 54px;
 }
@@ -136,7 +154,7 @@ footer{
   bottom: 0;
 }
 
-/****/
+/** Typography **/
 
 h3 .recommended, h3 .unfamiliar, h3 .notrecommended{
   padding: 2px 8px;
@@ -202,13 +220,15 @@ footer p{
   margin-bottom: 0;
 }
 
-.currentPage{
+.currentPage, .currentPage:hover{
   background: #FFF;
 }
 
 ::selection{
   background: rgba(224, 205, 94, 0.699);
 }
+
+/** Ethicli **/
 
 #ethicli{
   position: fixed;
