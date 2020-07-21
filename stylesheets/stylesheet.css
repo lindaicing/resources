@@ -188,6 +188,10 @@ a{
   font-weight: 600;
 }
 
+a:hover{
+  opacity: 0.6;
+}
+
 #home p{
   padding-left: 0em;
   text-indent: 0em;
