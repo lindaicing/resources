@@ -16,23 +16,31 @@ section{
 }
 
 section article:last-child{
-  margin-bottom: 0;
+  margin-right: 0;
 }
 
 /** Landing Page **/
 
-#cards{
+.cards{
   display: flex;
   flex-wrap: wrap;
 }
 
-#cards article{
-  max-width: 280px;
-  min-width: 240px;
+.cards article{
+  max-width: 260px;
+  min-width: 220px;
   padding: 16px;
   border-radius: 8px;
   border: 3px solid rgb(219, 219, 206);
   margin: 0 30px 30px 0;
+}
+
+#home .cards{
+  align-items: flex-start;
+}
+
+#home .cards article{
+  max-width: 280px;
 }
 
 /** Page Body **/
@@ -42,7 +50,7 @@ section article:last-child{
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 30px;
+  margin: 40px;
   margin-left: 270px;
 }
 
@@ -90,10 +98,22 @@ nav{
   display: flex;
   flex-direction: column;
   background: rgb(226, 226, 216);
-  width: 220px;
+  width: 230px;
   height: 100vh;
   position: fixed;
   overflow: scroll;
+}
+
+nav a{
+  display: block;
+  margin: 4px 30px 8px 16px;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #333;
+}
+
+nav ul:first-child{
+  margin-top: 54px;
 }
 
 #shrink{
@@ -106,7 +126,7 @@ nav{
   border: 0px;
   outline: 0;
   font-size: 0.8em;
-  padding-right: 8px;
+  padding-right: 4px;
 }
 
 footer{
@@ -142,18 +162,6 @@ h3{
   font-weight: 600;
   margin-bottom: 10px;
   padding-bottom: 4px;
-}
-
-nav a{
-  display: block;
-  margin: 4px 30px 8px 16px;
-  padding: 4px 8px;
-  border-radius: 8px;
-  color: #333;
-}
-
-nav ul:first-child{
-  margin-top: 40px;
 }
 
 a{
