@@ -162,7 +162,12 @@ a{
   font-weight: 600;
 }
 
-#page p{
+#home p{
+  padding-left: 0em;
+  text-indent: 0em;
+}
+
+p{
   padding-left: 2em;
   text-indent:-2em;
 }
