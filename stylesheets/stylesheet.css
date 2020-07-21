@@ -21,12 +21,13 @@ section article:last-child{
 
 /** Landing Page **/
 
-#updates{
+#cards{
   display: flex;
   flex-wrap: wrap;
 }
 
-#updates article{
+#cards article{
+  max-width: 280px;
   min-width: 240px;
   padding: 16px;
   border-radius: 8px;
@@ -59,8 +60,8 @@ section article:last-child{
   right: 30px;
 }
 
-#key h3{
-  margin-bottom: 8px;
+#key h2{
+  margin-bottom: 12px;
 }
 
 #key p{
@@ -105,15 +106,26 @@ footer{
 /****/
 
 .recommended, .recommended a{
- background: rgba(94, 170, 71, 0.384);
+ background: rgb(145, 189, 132);
+ color: #fff;
+ padding: 0 2px;
+}
+
+.unfamiliar, .unfamiliar a{
+ background: rgb(218, 211, 141);
  color: #fff;
  padding: 0 2px;
 }
 
 .notrecommended, .notrecommended a{
-  background: rgba(255, 99, 99, 0.589);
+  background: rgb(238, 149, 149);
   color: #fff;
   padding: 0 2px;
+}
+
+h3 .recommended, h3 .unfamiliar, h3 .notrecommended{
+  padding: 2px 8px;
+  border-radius: 8px;
 }
 
 h1{
@@ -123,17 +135,18 @@ h1{
 }
 
 h2{
-  font-size: 1.8em;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-h3{
   font-size: 1.4em;
   font-weight: 600;
   margin-bottom: 20px;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+h3{
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
 }
 
 nav a{
@@ -160,7 +173,8 @@ p, ul li{
 
 #page ul li{
   list-style-type: disc;
-  list-style-position: inside;
+  list-style-position: outside;
+  margin-left: 1.5em;
 }
 
 em{
