@@ -167,6 +167,10 @@ a{
   text-indent: 0em;
 }
 
+footer p{
+  color: #aaa;
+}
+
 p{
   padding-left: 2em;
   text-indent:-2em;
