@@ -253,7 +253,6 @@ footer p{
 
 #ethicli:hover{
   right: -10px;
-  opacity: 1;
   -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
 -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
@@ -277,6 +276,10 @@ footer p{
   background:  rgb(219, 219, 206);
   padding: 16px;
   border-radius: 100px;
+}
+
+#ethicli a:hover{
+  opacity: 1;
 }
 
 #ethicli h3{
