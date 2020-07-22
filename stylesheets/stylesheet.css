@@ -44,14 +44,6 @@ section article:last-child{
   margin: 0 30px 30px 0;
 }
 
-#home .cards{
-  align-items: flex-start;
-}
-
-#home .cards article{
-  max-width: 280px;
-}
-
 #googledoc{
   display: block;
   margin-top:16px;
