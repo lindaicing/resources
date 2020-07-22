@@ -73,7 +73,15 @@ section article:last-child{
 
 #key{
   position: fixed;
+  top: 48px;
   right: 40px;
+  padding: 8px 12px 4px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0);
+}
+
+#key:hover{
+  background: rgb(255, 255, 255);
 }
 
 #key h2{
@@ -152,8 +160,9 @@ nav ul:first-child{
 footer{
   width: 100%;
   text-align: end;
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /** Typography **/
@@ -166,7 +175,7 @@ h3 .recommended, h3 .unfamiliar, h3 .notrecommended{
 h1{
   font-size: 3em;
   font-weight: 600;
-  margin: 10px 0 40px 0;
+  margin: 10px 0 60px 0;
 }
 
 h2{
@@ -297,4 +306,23 @@ footer p{
 #ethicli img{
   height: 50px;
   margin-right: 20px;
+}
+
+/* Coffee */
+#coffee{
+  width: 128px;
+  padding: 8px 12px;
+  border-radius: 100px;
+  background: #c9c9b9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#coffee img{
+  height: 20px;
+}
+
+#coffee span{
+  color: #333;
 }
