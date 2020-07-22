@@ -36,7 +36,7 @@ section article:last-child{
 }
 
 .cards article{
-  max-width: 260px;
+  max-width: 250px;
   min-width: 220px;
   padding: 16px;
   border-radius: 8px;
