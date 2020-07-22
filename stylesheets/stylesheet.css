@@ -301,6 +301,11 @@ em{
   color: rgb(101, 145, 80);
 }
 
+#ethicli h3:hover{
+  margin-bottom: 0px;
+  color: #c8ae1e;
+}
+
 #ethicli img{
   height: 50px;
   margin-right: 20px;
