@@ -30,6 +30,10 @@ section article:last-child{
 
 /** Landing Page **/
 
+.endsWithCards{
+  margin-bottom: 24px;
+}
+
 .cards{
   display: flex;
   flex-wrap: wrap;
