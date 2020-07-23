@@ -383,7 +383,7 @@ em{
     width: 0;
     height: 0;
     overflow: hidden;
-    top: 36px;
+    top: 30px;
     right: 28px;
     -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
     -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
