@@ -371,7 +371,7 @@ em{
     font-size: 2em;
     background: #fff;
     right: 28px;
-    top: 36px;
+    top: 30px;
     padding: 8px;
     border-radius: 8px;
     z-index: 1;
@@ -432,6 +432,7 @@ em{
   }
   #sandwich{
     display: block;
+    background: #fff;
   }
   #ethicli{
     display: none;
@@ -504,7 +505,7 @@ em{
   h1.showNav{
     position: fixed;
     top: -24px;
-    left: 80px;
+    left: 85px;
     font-size: 1.85em;
     z-index: 1;
     -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
