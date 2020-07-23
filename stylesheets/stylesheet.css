@@ -521,3 +521,9 @@ em{
     transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
   }
 }
+
+@media only screen and (max-width: 600px) {
+  nav ul li {
+    width: 100%;
+  }
+}
