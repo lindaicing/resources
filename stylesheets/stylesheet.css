@@ -476,11 +476,11 @@ em{
     width: 100%;
     height: auto;
     border-radius: 0 0 8px 8px;
-    -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
+    -webkit-transition: all 800ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
+    -webkit-transition: all 800ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -moz-transition: all 800ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -o-transition: all 800ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    transition: all 800ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
 
     -webkit-transition-timing-function: cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
     -webkit-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
