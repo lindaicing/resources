@@ -7,6 +7,10 @@ $(document).ready(function(){
         $("#key div").toggleClass("keyClicked");
     });
 
+    $('#mydiv').on('swipeup',function(){
+        $("#key div").removeClass("keyClicked");
+    } );
+
     $(window).bind("resize", function () {
         if ($(this).width() > 600) {
             $("#page, nav, h1").removeClass("showNav");
