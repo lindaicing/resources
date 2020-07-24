@@ -9,7 +9,6 @@ $(document).ready(function(){
 
     $('nav').on('swipe',function(){
         $("#key div").removeClass("keyClicked");
-        alert("swiped");
     } );
 
     $(window).bind("resize", function () {
@@ -19,13 +18,3 @@ $(document).ready(function(){
         }
     }).trigger('resize');
 })
-
-$(function(){
-    // Bind the swipeleftHandler callback function to the swipe event on div.box
-    $( "nav" ).on( "swipeleft", swipeleftHandler );
-   
-    // Callback function references the event target and adds the 'swipeleft' class to it
-    function swipeleftHandler( event ){
-      alert("yah");
-    }
-});
