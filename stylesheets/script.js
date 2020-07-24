@@ -17,4 +17,4 @@ $(document).ready(function(){
             $("#key div").removeClass("keyClicked");
         }
     }).trigger('resize');
-})
+}) 
