@@ -7,7 +7,7 @@ $(document).ready(function(){
         $("#key div").toggleClass("keyClicked");
     });
 
-    $('#mydiv').on('swipeup',function(){
+    $('nav').on('swipeup',function(){
         $("#key div").removeClass("keyClicked");
     } );
 
