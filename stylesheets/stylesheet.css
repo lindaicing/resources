@@ -176,6 +176,16 @@ nav ul{
   background: #fff;
 }
 
+#pageTitleNav{
+  display:none;
+  position: absolute;
+  top: 36px;
+  left: 85px;
+  font-size: 1.85em;
+  font-weight: bold;
+  z-index: 1;
+}
+
 /** Footer **/
 
 footer{
@@ -444,8 +454,11 @@ em{
   #page {
     margin-left: 40px;
   }
-  #page.showNav{
-    padding-top: 168px;
+  h1{
+    margin-top: 60px;
+  }
+  #pageTitleNav{
+    display: block;
   }
   #sandwich{
     display: block;
@@ -512,27 +525,6 @@ em{
   }
   .cards article{
     min-width: 100%;
-  }
-  h1{
-    margin-top: 60px;
-  }
-  h1.showNav{
-    position: fixed;
-    top: -24px;
-    left: 85px;
-    font-size: 1.85em;
-    z-index: 1;
-    -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
-
-    -webkit-transition-timing-function: cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
   }
 }
 
