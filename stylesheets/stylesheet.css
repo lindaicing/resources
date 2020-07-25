@@ -346,7 +346,7 @@ em{
   margin-right: 20px;
 }
 
-/* Coffee */
+/* Coffee + Confetti */
 #coffee{
   width: 154px;
   margin-left: 10px;
@@ -364,6 +364,10 @@ em{
 
 #coffee span{
   color: #333;
+}
+
+#confetti{
+  cursor: pointer;
 }
 
 /* Queries */
