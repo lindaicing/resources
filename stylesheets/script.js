@@ -15,7 +15,7 @@ $(document).ready(function(){
     }).trigger('resize');
 
     
-    // Scroll functions
+    // Scroll functions ------------------------------------------------------------
     $(window).bind('mousewheel', function(event) {
         if (event.originalEvent.wheelDelta < 0) {
             $("nav").removeClass("showNav");
@@ -31,4 +31,10 @@ $(document).ready(function(){
            previousScroll = currentScroll;
         });
     }());
+
+    // Confetti --------------------------------------------------------------------
+    // Code an altered version of the one from https://www.cssscript.com/confetti-falling-animation/
+    $("#confetti").click(function(){
+        confetti.start(2000, 50);
+    });
 })
