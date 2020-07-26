@@ -619,6 +619,9 @@ em{
     -o-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
     transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
   }
+  nav.shrinkNav{
+    left: 0;
+  }
   nav ul{
     position: relative;
     margin: 96px 16px 24px 16px;
