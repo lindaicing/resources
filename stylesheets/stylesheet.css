@@ -19,7 +19,6 @@ body {
   width: 100%;
   margin: 40px;
   margin-left: 270px;
-  z-index: -1;
   
   -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
   -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
@@ -158,6 +157,7 @@ nav{
   height: 100vh;
   position: fixed;
   left: 0;
+  z-index: 1;
   -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
   -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
   -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
