@@ -11,10 +11,23 @@ $(document).ready(function(){
         if ($(this).width() > 600) {
             $("nav").removeClass("showNav");
             $("#key div").removeClass("keyClicked");
+            $("#shrink span").css({"display":"block"});
+        }else{
+            $("#shrink span").css({"display":"none"});
         }
     }).trigger('resize');
 
+
+    // Hide Nav ------------------------------------------------------------
+    $("#shrink span").click(function(){
+        $("#page, nav").toggleClass("shrinkNav");
+    });
+
+    $("#shrink").click(function(){
+        $("#shrink span p").toggleClass("switchDirection");
+    });
     
+
     // Scroll functions ------------------------------------------------------------
     $(window).bind('mousewheel', function(event) {
         if (event.originalEvent.wheelDelta < 0) {
@@ -31,6 +44,7 @@ $(document).ready(function(){
            previousScroll = currentScroll;
         });
     }());
+
 
     // Confetti --------------------------------------------------------------------
     // Code an altered version of the one from https://www.cssscript.com/confetti-falling-animation/
