@@ -48,4 +48,8 @@ $(document).ready(function(){
     $("#confetti").click(function(){
         confetti.start(2000, 50);
     });
+
+    
+    // Darkmode Let's Goooooo ------------------------------------------------------
+
 })
