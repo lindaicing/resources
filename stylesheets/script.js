@@ -10,8 +10,6 @@ $(document).ready(function(){
     $(window).bind("resize", function () {
         if ($(this).width() > 600) {
             $("nav").removeClass("showNav");
-            $("#shrink span p").removeClass("switchDirection");
-
             $("#key div").removeClass("keyClicked");
             $("#shrink span").css({"display":"block"});
         }else{
