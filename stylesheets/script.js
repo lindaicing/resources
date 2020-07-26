@@ -51,5 +51,8 @@ $(document).ready(function(){
 
     
     // Darkmode Let's Goooooo ------------------------------------------------------
-
+    $("#darkmode").click(function(){
+         $("#switch").toggleClass("fa-sun fa-moon");
+         $("body").toggleClass("darkmode");
+    });
 })

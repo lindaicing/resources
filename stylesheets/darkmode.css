@@ -1,0 +1,165 @@
+/* Making the Button ********************************************************************/
+
+#darkmode{
+    position: absolute;
+    bottom: 36px;
+    left: 28px;
+    background: #9e9e8e;
+    border-radius: 100px;
+    width: 48px;
+    height: 16px;
+    -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
+    -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -o-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
+  
+    -webkit-transition-timing-function: cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -moz-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -o-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
+}
+
+#switch{
+    display: block;
+    position: absolute;
+    border-radius: 100px;
+    padding: 4px;
+    top: -6px;
+    margin-left: -6px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+.fa-sun{
+    left: 0;
+    background: #fff;
+    -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
+    -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -o-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
+  
+    -webkit-transition-timing-function: cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -moz-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -o-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
+}
+
+.fa-moon{
+    left: 30px;
+    background: rgb(112, 112, 94);
+    -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
+    -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -o-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
+  
+    -webkit-transition-timing-function: cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -moz-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -o-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
+}
+
+body.darkmode #darkmode{
+    background:#1a1a1a;
+    -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
+    -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -o-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
+  
+    -webkit-transition-timing-function: cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
+    -webkit-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -moz-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    -o-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
+    transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
+}
+
+/* Page Elements ********************************************************************/
+
+body.darkmode{
+    background: #2a2a2a;
+    color: rgb(158, 158, 134);
+}
+
+body.darkmode nav{
+    background: #333;
+    color: rgb(158, 158, 134);
+}
+
+body.darkmode .cards article{
+  border: 3px solid #747464;
+}
+
+body.darkmode #shrink, body.darkmode #shrink span{
+    background:rgb(30, 30, 30);
+}
+
+body.darkmode #shrink span p{
+    color: #505041;
+}
+
+/* Typography ********************************************************************/
+
+body.darkmode h1, body.darkmode h2, body.darkmode h3{
+    color: rgb(207, 207, 191);
+}
+
+body.darkmode h2{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+body.darkmode nav a{
+    color: rgb(139, 139, 116);
+}
+
+body.darkmode nav a:hover{
+    background:rgb(75, 75, 66);
+}
+
+body.darkmode .currentPage, body.darkmode .currentPage:hover{
+    background: rgb(105, 105, 95);
+    color:#c9c9b9;
+}
+
+body.darkmode #ethicli a{
+    background:rgb(105, 105, 95);
+    color: #c9c9b9;
+}
+
+body.darkmode #googledoc, body.darkmode #coffee{
+    opacity: 0.75;
+}
+
+body.darkmode #googledoc:hover, body.darkmode #coffee:hover{
+    opacity: 1;
+}
+
+body.darkmode #ethicli h3{
+    color: rgb(131, 197, 99);
+}
+
+body.darkmode #ethicli h3:hover{
+    color: #c8ae1e;
+}
+
+
+/* Queries ********************************************************************/
+
+@media only screen and (max-width: 600px) {
+    #darkmode{
+        display: block;
+        top: 42px;
+        left: 100%;
+        margin-left:-80px;
+    }
+
+    body.darkmode #sandwich{
+        display: block;
+        background: rgb(105, 105, 95);
+    }
+}
