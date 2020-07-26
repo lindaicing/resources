@@ -19,11 +19,8 @@ $(document).ready(function(){
 
 
     // Hide Nav ------------------------------------------------------------
-    $("#shrink span").click(function(){
-        $("#page, nav").toggleClass("shrinkNav");
-    });
-
     $("#shrink").click(function(){
+        $("#page, nav").toggleClass("shrinkNav");
         $("#shrink span p").toggleClass("switchDirection");
     });
     

@@ -222,7 +222,7 @@ nav ul{
   left: 0;
   display: fixed;
   text-align: center;
-  padding: 2px 24px 2px 8px;
+  padding: 2px 16px 2px 8px;
   border-radius: 0 100px 100px 0;
   background: rgb(219, 219, 206);
 }
@@ -230,7 +230,7 @@ nav ul{
 #shrink span p{
   color: rgb(172, 172, 154);
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 1.2em;
   padding: 0;
   text-indent: 0;
   display:inline-block;
