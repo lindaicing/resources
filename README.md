@@ -1,6 +1,6 @@
 # Hello World!
 I'm working on compiling a list of design ad front-end resources starting with UI/UX for beginners, all in a single website. I know this has been done before, but I wanted to practice building my own site for resources that I recommend. I hope you can find it helpful and enjoy!<br>
-<em>If there's anything you'd like to see, please <a href="mailto:&#108;&#105;&#110;&#100;&#097;&#116;&#104;&#101;&#104;&#117;&#097;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" target="_blank">Email Me</a>!</em>
+#### If there's anything you'd like to see, please <a href="mailto:&#108;&#105;&#110;&#100;&#097;&#116;&#104;&#101;&#104;&#117;&#097;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" target="_blank">Email Me</a>!
 <br>
 <br>
 
