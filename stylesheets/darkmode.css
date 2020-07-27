@@ -1,0 +1,160 @@
+/* Making the Button ********************************************************************/
+
+#darkmode{
+    position: absolute;
+    bottom: 36px;
+    left: 28px;
+    background: #9e9e8e;
+    border-radius: 100px;
+    width: 48px;
+    height: 16px;
+    cursor: pointer;
+    /* custom */
+}
+
+#switch{
+    display: block;
+    position: absolute;
+    border-radius: 100px;
+    padding: 4px;
+    top: -6px;
+    margin-left: -6px;
+    font-size: 1.3em;
+    color: #333;
+}
+
+.fa-sun{
+    left: 0;
+    background: #fff;
+}
+
+.fa-moon{
+    left: 30px;
+    background: rgb(112, 112, 94);
+}
+
+body.darkmode #darkmode{
+    background:#1a1a1a;
+}
+
+/* Page Elements ********************************************************************/
+
+body.darkmode{
+    background: #2a2a2a;
+    color: rgba(158, 158, 134, 0.87);
+}
+
+body.darkmode nav{
+    background: #333;
+    color: rgb(158, 158, 134);
+}
+
+body.darkmode .cards article{
+  border: 3px solid #747464;
+}
+
+body.darkmode #shrink, body.darkmode #shrink span{
+    background:rgb(30, 30, 30);
+}
+
+body.darkmode #shrink span p{
+    color: #505041;
+}
+
+/* Typography ********************************************************************/
+
+body.darkmode h1, body.darkmode h2, body.darkmode h3{
+    color: rgb(207, 207, 191);
+}
+
+body.darkmode h2{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+body.darkmode nav a{
+    color: rgb(139, 139, 116);
+}
+
+body.darkmode nav a:hover{
+    background:rgb(75, 75, 66);
+}
+
+body.darkmode #key:hover{
+    background:rgb(75, 75, 66);
+}
+
+body.darkmode .recommended, body.darkmode .recommended a{
+    background: #5b7c1c;
+    color: #eee;
+}
+
+body.darkmode .unfamiliar, body.darkmode .unfamiliar a{
+    background: rgb(68, 103, 117);
+    color: #eee;
+}
+
+body.darkmode .notrecommended, body.darkmode .notrecommended a{
+   background: #b36b0d;
+   color: #eee;
+}
+
+body.darkmode .currentPage, body.darkmode .currentPage:hover{
+    background:rgb(87, 87, 77);
+    color:#c9c9b9;
+}
+
+body.darkmode em{
+    color:rgb(190, 190, 175);
+}
+
+body.darkmode ::selection{
+    background:#c8ae1e;
+    color: #c9c9b9;
+}
+
+/* Extras ********************************************************************/
+
+body.darkmode #ethicli a{
+    background:rgb(87, 87, 77);
+    color: #c9c9b9;
+}
+
+body.darkmode #googledoc, body.darkmode #coffee{
+    opacity: 0.75;
+}
+
+body.darkmode #googledoc:hover, body.darkmode #coffee:hover{
+    opacity: 1;
+}
+
+body.darkmode #ethicli h3{
+    color: rgb(131, 197, 99);
+}
+
+body.darkmode #ethicli h3:hover{
+    color: #c8ae1e;
+}
+
+
+
+/* Queries ********************************************************************/
+
+@media only screen and (max-width: 880px) {
+    body.darkmode #keymoji, body.darkmode #key div{
+        background:rgb(75, 75, 66);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #darkmode{
+        display: block;
+        top: 42px;
+        left: 100%;
+        margin-left:-80px;
+    }
+
+    body.darkmode #sandwich{
+        display: block;
+        background: rgb(105, 105, 95);
+    }
+}
