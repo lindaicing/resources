@@ -86,13 +86,11 @@ $(window).ready(function(){
         $("#switch").addClass("fa-moon");
         $("#switch").removeClass("fa-sun");
         $("body").addClass("darkmode");
-        console.log("SSDM1 = "+sessionStorage.getItem("DM"));
     }
     if (dm == "false"){
         $("#switch").removeClass("fa-moon");
         $("#switch").addClass("fa-sun");
         $("body").removeClass("darkmode");
-        console.log("SSDM2 = "+sessionStorage.getItem("DM"));
     }
 
     $("#darkmode").click(function(){
