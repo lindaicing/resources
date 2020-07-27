@@ -28,12 +28,14 @@ Build in the works! But I'm thinking...
   <li>Boilerplates</li>
   <li>Cool things you can do with HTML</li>
 </ul>
+
 #### CSS
 <ul>
   <li>Basic Structure</li>
   <li>Boilerplates</li>
   <li>Totally awesome things you can do with CSS</li>
 </ul>
+
 #### JavaScript
 <ul>
   <li>Basic Structure</li>
