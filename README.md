@@ -18,7 +18,6 @@ I'm working on compiling a list of design ad front-end resources starting with U
   <li>Learning UX Online</li>
 </ul>
 <br>
-<br>
 
 ## Front-End Resources
 Build in the works! But I'm thinking...
@@ -47,7 +46,6 @@ Build in the works! But I'm thinking...
 <ul>
   <li>Stuff to know for absolute beginners...</li>
 </ul>
-<br>
 <br>
 
 ## Like what I do?
