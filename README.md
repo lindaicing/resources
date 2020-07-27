@@ -42,7 +42,8 @@ Build in the works! But I'm thinking...
   <li>Boilerplates</li>
   <li>Different Frameworks</li>
 </ul>
-Basic CS for the Web
+
+#### Basic CS for the Web
 <ul>
   <li>Stuff to know for absolute beginners...</li>
 </ul>
