@@ -245,9 +245,9 @@ nav ul{
 #pageTitleNav{
   display:none;
   position: absolute;
-  top: 36px;
+  top: 40px;
   left: 85px;
-  font-size: 1.85em;
+  font-size: 1.4em;
   font-weight: bold;
   z-index: 1;
 }
