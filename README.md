@@ -49,5 +49,5 @@ Build in the works! But I'm thinking...
 </ul>
 <br>
 
-## Like what I do?
+## Like what I do? 💛
 <a href="https://www.buymeacoffee.com/lindaicing" title="Please I crave caffeine" target="_blank">Please help fuel my coffee addiction</a> ☕
