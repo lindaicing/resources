@@ -45,6 +45,7 @@ Build in the works! But I'm thinking...
 #### Basic CS for the Web
 <ul>
   <li>Stuff to know for absolute beginners...</li>
+  <li>How do each of the programming languages talk to each other?</li>
 </ul>
 <br>
 
