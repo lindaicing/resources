@@ -4,7 +4,7 @@ I'm working on compiling a list of design ad front-end resources starting with U
 <br>
 <br>
 
-## UI/UX Resources
+## UI/UX Resources 👥
 ### <a href="https://lindaicing.github.io/resources/" title="Hello World :)" target="_blank">See the project here</a>!
 #### Table of Contents
 <ul>
@@ -19,7 +19,7 @@ I'm working on compiling a list of design ad front-end resources starting with U
 </ul>
 <br>
 
-## Front-End Resources
+## Front-End Resources 👩‍💻
 Build in the works! But I'm thinking...
 #### Front-End terms to know
 <ul>
@@ -50,4 +50,4 @@ Build in the works! But I'm thinking...
 <br>
 
 ## Like what I do?
-<a href="https://www.buymeacoffee.com/lindaicing" title="Please I crave caffeine" target="_blank">Please help fuel my coffee addiction</a>
+<a href="https://www.buymeacoffee.com/lindaicing" title="Please I crave caffeine" target="_blank">Please help fuel my coffee addiction</a> ☕
