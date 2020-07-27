@@ -1,5 +1,6 @@
 # Hello World!
 I'm working on compiling a list of design ad front-end resources starting with UI/UX for beginners, all in a single website. I know this has been done before, but I wanted to practice building my own site for resources that I recommend. I hope you can find it helpful and enjoy!
+<em>If there's anything you'd like to see, please <a href="mailto:&#108;&#105;&#110;&#100;&#097;&#116;&#104;&#101;&#104;&#117;&#097;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" target="_blank">Email Me</a>!</em>
 <br>
 <br>
 
@@ -21,32 +22,28 @@ I'm working on compiling a list of design ad front-end resources starting with U
 
 ## Front-End Resources
 Build in the works! But I'm thinking...
+#### Front-End terms to know
 <ul>
-  <li>Front-End terms to know</li>
-  <li>HTML</li>
-  <ul>
-    <li>Basic Structure</li>
-    <li>Boilerplates</li>
-    <li>Cool things you can do with HTML</li>
-  </ul>
-  <li>CSS</li>
-  <ul>
-    <li>Basic Structure</li>
-    <li>Boilerplates</li>
-    <li>Totally awesome things you can do with CSS</li>
-  </ul>
-  <li>JavaScript</li>
-  <ul>
-    <li>Basic Structure</li>
-    <li>Boilerplates</li>
-    <li>Different Frameworks</li>
-  </ul>
-  <li>Basic CS</li>
-  <ul>
-    <li>Stuff to know for absolute beginners...</li>
-  </ul>
+  <li>Basic Structure</li>
+  <li>Boilerplates</li>
+  <li>Cool things you can do with HTML</li>
 </ul>
-<em>If there's anything you'd like to see, please <a href="mailto:&#108;&#105;&#110;&#100;&#097;&#116;&#104;&#101;&#104;&#117;&#097;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;" target="_blank">Email Me</a>!</em>
+#### CSS
+<ul>
+  <li>Basic Structure</li>
+  <li>Boilerplates</li>
+  <li>Totally awesome things you can do with CSS</li>
+</ul>
+#### JavaScript
+<ul>
+  <li>Basic Structure</li>
+  <li>Boilerplates</li>
+  <li>Different Frameworks</li>
+</ul>
+Basic CS for the Web
+<ul>
+  <li>Stuff to know for absolute beginners...</li>
+</ul>
 <br>
 <br>
 
