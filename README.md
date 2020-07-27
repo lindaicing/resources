@@ -4,7 +4,7 @@ I'm working on compiling a list of design resources starting with UI/UX for begi
 <a href="https://lindaicing.github.io/resources/." title="Hello World :)">See the project here</a>!
 
 
-### UIUX Resources
+### <a href="https://lindaicing.github.io/resources/." title="Hello World :)">See the project here</a>!
 Build in progress
 
 
