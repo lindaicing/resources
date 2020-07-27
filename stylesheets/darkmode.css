@@ -131,7 +131,7 @@ body.darkmode a#googledoc:hover, body.darkmode a#coffee:hover{
 }
 
 body.darkmode a#coffee span{
-    color: rgb(158, 158, 134);
+    color: #bdbdac;
 }
 
 body.darkmode a#coffee:hover span{
