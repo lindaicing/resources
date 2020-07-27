@@ -41,7 +41,7 @@ body.darkmode #darkmode{
 
 body.darkmode{
     background: #2a2a2a;
-    color: rgb(158, 158, 134);
+    color: rgba(158, 158, 134, 0.87);
 }
 
 body.darkmode nav{
@@ -84,27 +84,27 @@ body.darkmode #key:hover{
 }
 
 body.darkmode .recommended, body.darkmode .recommended a{
-    background: rgb(102, 139, 91);
+    background: #5b7c1c;
     color: #eee;
 }
 
 body.darkmode .unfamiliar, body.darkmode .unfamiliar a{
-    background: rgb(89, 136, 145);
+    background: rgb(68, 103, 117);
     color: #eee;
 }
 
 body.darkmode .notrecommended, body.darkmode .notrecommended a{
-   background: rgb(179, 103, 103);
+   background: #b36b0d;
    color: #eee;
 }
 
 body.darkmode .currentPage, body.darkmode .currentPage:hover{
-    background: rgb(105, 105, 95);
+    background:rgb(87, 87, 77);
     color:#c9c9b9;
 }
 
 body.darkmode em{
-    color:rgb(172, 172, 154);
+    color:rgb(190, 190, 175);
 }
 
 body.darkmode ::selection{
@@ -115,7 +115,7 @@ body.darkmode ::selection{
 /* Extras ********************************************************************/
 
 body.darkmode #ethicli a{
-    background:rgb(105, 105, 95);
+    background:rgb(87, 87, 77);
     color: #c9c9b9;
 }
 

@@ -1,6 +1,7 @@
 var darkmode;
 
 $(window).ready(function(){
+    // Delay showing Transitions ------------------------------------------------------------
     var delay = ( function() {
         var timer = 0;
         return function(callback, ms) {
@@ -9,13 +10,7 @@ $(window).ready(function(){
         };
     })();
 
-    delay(function(){
-        addTransition();
-        $("#pageTransition").css({
-            "opacity":"0"
-        });
-    }, 10 ); // end delay
-
+    delay(function(){addTransition();}, 10 );
     function addTransition(){
         $("#page, body, nav, #shrink, #shrink span, #switch, #key div, #ethicli").css({
             "-webkit-transition":"all 500ms cubic-bezier(0.515, 0, 0.425, 1)",
@@ -31,12 +26,8 @@ $(window).ready(function(){
         })
     }
 
-
-
-
-
     
-
+    // Resizing ------------------------------------------------------------
     $("#sandwich").click(function(){
         $("nav").toggleClass("showNav");
     });

@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background: #333;
+  background: #555;
 }
 
 body {
@@ -134,13 +134,13 @@ section article:last-child{
  }
  
  .unfamiliar, .unfamiliar a{
-  background: rgba(142, 199, 209, 1);
+  background: rgb(124, 179, 211);
   color: #fff;
   padding: 0 2px;
  }
  
  .notrecommended, .notrecommended a{
-   background: rgba(238, 149, 149, 1);
+   background: #ebb17a;
    color: #fff;
    padding: 0 2px;
  }
@@ -198,7 +198,7 @@ nav ul{
   left: 0;
   display: fixed;
   text-align: center;
-  padding: 2px 16px 2px 8px;
+  padding: 6px 16px 6px 8px;
   border-radius: 0 100px 100px 0;
   background: rgb(219, 219, 206);
   cursor: pointer;
@@ -209,8 +209,8 @@ nav ul{
   font-weight: bold;
   font-size: 1.2em;
   line-height: 0em;
-  padding: 8px 0 0 0;
   text-indent: 0;
+  padding-left: 0;
   display:inline-block;
   -webkit-transform:scale(1,1.5); /* Safari and Chrome */
   -moz-transform:scale(1,1.5); /* Firefox */
@@ -314,7 +314,7 @@ footer p{
 p{
   padding-left: 2em;
   text-indent:-2em;
-  margin-bottom: 1em;
+  margin-bottom: 0.25em;
 }
 
 .noIndent{
