@@ -103,9 +103,13 @@ body.darkmode .currentPage, body.darkmode .currentPage:hover{
     color:#c9c9b9;
 }
 
+body.darkmode em{
+    color:rgb(172, 172, 154);
+}
+
 body.darkmode ::selection{
     background:#c8ae1e;
-    color:#eee;
+    color: #c9c9b9;
 }
 
 /* Extras ********************************************************************/
@@ -135,6 +139,12 @@ body.darkmode #ethicli h3:hover{
 
 /* Queries ********************************************************************/
 
+@media only screen and (max-width: 880px) {
+    body.darkmode #keymoji, body.darkmode #key div{
+        background:rgb(75, 75, 66);
+    }
+}
+
 @media only screen and (max-width: 600px) {
     #darkmode{
         display: block;
@@ -146,8 +156,5 @@ body.darkmode #ethicli h3:hover{
     body.darkmode #sandwich{
         display: block;
         background: rgb(105, 105, 95);
-    }
-    body.darkmode #keymoji, body.darkmode #key div{
-        background:rgb(75, 75, 66);
     }
 }

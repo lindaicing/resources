@@ -1,6 +1,42 @@
 var darkmode;
 
-$(document).ready(function(){
+$(window).ready(function(){
+    var delay = ( function() {
+        var timer = 0;
+        return function(callback, ms) {
+            clearTimeout (timer);
+            timer = setTimeout(callback, ms);
+        };
+    })();
+
+    delay(function(){
+        addTransition();
+        $("#pageTransition").css({
+            "opacity":"0"
+        });
+    }, 10 ); // end delay
+
+    function addTransition(){
+        $("#page, body, nav, #shrink, #shrink span, #switch, #key div, #ethicli").css({
+            "-webkit-transition":"all 500ms cubic-bezier(0.515, 0, 0.425, 1)",
+            "-webkit-transition":"all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020)",
+            "-moz-transition":"all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020)",
+            "-o-transition":"all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020)",
+            "transition":"all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020)",
+            "-webkit-transition-timing-function":"cubic-bezier(0.515, 0, 0.425, 1)",
+            "-webkit-transition-timing-function":"cubic-bezier(0.515, -0.005, 0.425, 1.020)",
+            "-moz-transition-timing-function":"cubic-bezier(0.515, -0.005, 0.425, 1.020)",
+            "-o-transition-timing-function":"cubic-bezier(0.515, -0.005, 0.425, 1.020)",
+            "transition-timing-function":"cubic-bezier(0.515, -0.005, 0.425, 1.020)",
+        })
+    }
+
+
+
+
+
+    
+
     $("#sandwich").click(function(){
         $("nav").toggleClass("showNav");
     });
@@ -33,6 +69,7 @@ $(document).ready(function(){
             $("nav").removeClass("showNav");
         }
     });
+    
     (function () {
         var previousScroll = 0;
         $(window).scroll(function () {

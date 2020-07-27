@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  background: #333;
 }
 
 body {
@@ -31,6 +32,26 @@ section{
 
 section article:last-child{
   margin-right: 0;
+}
+
+#pageTransition{
+  display:block;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #333;
+  opacity: 1;
+  z-index: 100;
+  -webkit-transition:all 10ms cubic-bezier(0.515, 0, 0.425, 1);
+  -webkit-transition:all 10ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+  -moz-transition:all 10ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+  -o-transition:all 10ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+  transition:all 10ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
+  -webkit-transition-timing-function:cubic-bezier(0.515, 0, 0.425, 1);
+  -webkit-transition-timing-function:cubic-bezier(0.515, -0.005, 0.425, 1.020);
+  -moz-transition-timing-function:cubic-bezier(0.515, -0.005, 0.425, 1.020);
+  -o-transition-timing-function:cubic-bezier(0.515, -0.005, 0.425, 1.020);
+  transition-timing-function:cubic-bezier(0.515, -0.005, 0.425, 1.020);
 }
 
 /* Landing Page ********************************************************************/
@@ -187,7 +208,8 @@ nav ul{
   color: rgb(172, 172, 154);
   font-weight: bold;
   font-size: 1.2em;
-  padding: 0;
+  line-height: 0em;
+  padding: 8px 0 0 0;
   text-indent: 0;
   display:inline-block;
   -webkit-transform:scale(1,1.5); /* Safari and Chrome */
@@ -292,6 +314,7 @@ footer p{
 p{
   padding-left: 2em;
   text-indent:-2em;
+  margin-bottom: 1em;
 }
 
 .noIndent{
