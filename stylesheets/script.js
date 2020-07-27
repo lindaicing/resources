@@ -1,3 +1,5 @@
+var darkmode;
+
 $(document).ready(function(){
     $("#sandwich").click(function(){
         $("nav").toggleClass("showNav");
@@ -51,8 +53,23 @@ $(document).ready(function(){
 
     
     // Darkmode Let's Goooooo ------------------------------------------------------
+    var dm = sessionStorage.getItem("DM");
+    if (dm == "true"){ // If darkmode is true
+        $("#switch").addClass("fa-moon");
+        $("#switch").removeClass("fa-sun");
+        $("body").addClass("darkmode");
+        console.log("SSDM1 = "+sessionStorage.getItem("DM"));
+    }
+    if (dm == "false"){
+        $("#switch").removeClass("fa-moon");
+        $("#switch").addClass("fa-sun");
+        $("body").removeClass("darkmode");
+        console.log("SSDM2 = "+sessionStorage.getItem("DM"));
+    }
+
     $("#darkmode").click(function(){
          $("#switch").toggleClass("fa-sun fa-moon");
          $("body").toggleClass("darkmode");
+         sessionStorage.setItem("DM", $("body").hasClass("darkmode"));
     });
 })

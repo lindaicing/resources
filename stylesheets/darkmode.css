@@ -8,17 +8,8 @@
     border-radius: 100px;
     width: 48px;
     height: 16px;
-    -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
-  
-    -webkit-transition-timing-function: cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
+    cursor: pointer;
+    /* custom */
 }
 
 #switch{
@@ -35,48 +26,15 @@
 .fa-sun{
     left: 0;
     background: #fff;
-    -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
-  
-    -webkit-transition-timing-function: cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
 }
 
 .fa-moon{
     left: 30px;
     background: rgb(112, 112, 94);
-    -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
-  
-    -webkit-transition-timing-function: cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
 }
 
 body.darkmode #darkmode{
     background:#1a1a1a;
-    -webkit-transition: all 500ms cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition: all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
-  
-    -webkit-transition-timing-function: cubic-bezier(0.515, 0, 0.425, 1); /* older webkit */
-    -webkit-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -moz-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    -o-transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020);
-    transition-timing-function: cubic-bezier(0.515, -0.005, 0.425, 1.020); /* custom */
 }
 
 /* Page Elements ********************************************************************/
@@ -121,10 +79,36 @@ body.darkmode nav a:hover{
     background:rgb(75, 75, 66);
 }
 
+body.darkmode #key:hover{
+    background:rgb(75, 75, 66);
+}
+
+body.darkmode .recommended, body.darkmode .recommended a{
+    background: rgb(102, 139, 91);
+    color: #eee;
+}
+
+body.darkmode .unfamiliar, body.darkmode .unfamiliar a{
+    background: rgb(89, 136, 145);
+    color: #eee;
+}
+
+body.darkmode .notrecommended, body.darkmode .notrecommended a{
+   background: rgb(179, 103, 103);
+   color: #eee;
+}
+
 body.darkmode .currentPage, body.darkmode .currentPage:hover{
     background: rgb(105, 105, 95);
     color:#c9c9b9;
 }
+
+body.darkmode ::selection{
+    background:#c8ae1e;
+    color:#eee;
+}
+
+/* Extras ********************************************************************/
 
 body.darkmode #ethicli a{
     background:rgb(105, 105, 95);
@@ -148,6 +132,7 @@ body.darkmode #ethicli h3:hover{
 }
 
 
+
 /* Queries ********************************************************************/
 
 @media only screen and (max-width: 600px) {
@@ -161,5 +146,8 @@ body.darkmode #ethicli h3:hover{
     body.darkmode #sandwich{
         display: block;
         background: rgb(105, 105, 95);
+    }
+    body.darkmode #keymoji, body.darkmode #key div{
+        background:rgb(75, 75, 66);
     }
 }
