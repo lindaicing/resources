@@ -12,7 +12,7 @@ $(window).ready(function(){
 
     delay(function(){addTransition();}, 10 );
     function addTransition(){
-        $("#page, body, nav, #shrink, #shrink span, #switch, #key div, #ethicli").css({
+        $("#page, body, nav, #shrink, #shrink span, #darkmode, #switch, #key div, #ethicli").css({
             "-webkit-transition":"all 500ms cubic-bezier(0.515, 0, 0.425, 1)",
             "-webkit-transition":"all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020)",
             "-moz-transition":"all 500ms cubic-bezier(0.515, -0.005, 0.425, 1.020)",
