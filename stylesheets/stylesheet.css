@@ -198,7 +198,7 @@ nav ul{
   left: 0;
   display: fixed;
   text-align: center;
-  padding: 6px 16px 6px 8px;
+  padding: 8px 16px 6px 8px;
   border-radius: 0 100px 100px 0;
   background: rgb(219, 219, 206);
   cursor: pointer;
