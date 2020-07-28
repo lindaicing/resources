@@ -79,6 +79,10 @@ body.darkmode nav a:hover{
     background:rgb(75, 75, 66);
 }
 
+body.darkmode a{
+    color: rgb(206, 178, 85);
+}
+
 body.darkmode #key:hover{
     background:rgb(75, 75, 66);
 }
