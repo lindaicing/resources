@@ -49,6 +49,10 @@ body.darkmode nav{
     color: rgb(158, 158, 134);
 }
 
+body.darkmode #subnav div a{
+    background: rgba(75, 75, 66, 0.8);
+}
+
 body.darkmode .cards article{
   border: 3px solid #747464;
 }

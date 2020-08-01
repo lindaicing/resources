@@ -27,7 +27,7 @@ body {
 }
 
 section{
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 section article:last-child{
@@ -111,6 +111,7 @@ section article:last-child{
 }
 
 #key h2{
+  margin-top: 0;
   margin-bottom: 12px;
 }
 
@@ -252,6 +253,30 @@ nav ul{
   z-index: 1;
 }
 
+/** Subnav ********************************************************************/
+
+#subnav{
+  margin-top: 14px;
+  margin-bottom: 16px;
+}
+
+#subnav.withkey{
+  margin-right: 140px;
+}
+
+#subnav h2{
+  font-size: 1em;
+  display: none;
+}
+
+#subnav div a{
+  display: inline-block;
+  margin: 0 8px 16px 0;
+  padding: 4px;
+  border-radius: 6px;
+  background: #fff;
+}
+
 /** Footer ********************************************************************/
 
 footer{
@@ -273,13 +298,13 @@ h3 .recommended, h3 .unfamiliar, h3 .notrecommended{
 h1{
   font-size: 3em;
   font-weight: 600;
-  margin: 10px 0 60px 0;
+  margin: 10px 0 40px 0;
 }
 
 h2{
   font-size: 1.4em;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin: 20px auto;
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -422,6 +447,9 @@ em{
   footer {
     flex-direction: column-reverse;
     align-items: flex-end;
+  }
+  #subnav.withkey{
+    margin-right: 0px;
   }
   #coffee{
     margin-top: 20px;
