@@ -129,19 +129,19 @@ section article:last-child{
 }
 
 .recommended, .recommended a{
-  background: rgba(145, 189, 132, 1);
+  background: rgb(140, 209, 170);
   color: #fff;
   padding: 0 2px;
  }
  
  .unfamiliar, .unfamiliar a{
-  background: rgb(124, 179, 211);
+  background: rgb(163, 181, 240);
   color: #fff;
   padding: 0 2px;
  }
  
  .notrecommended, .notrecommended a{
-   background: #ebb17a;
+   background: #e9bc7a;
    color: #fff;
    padding: 0 2px;
  }
