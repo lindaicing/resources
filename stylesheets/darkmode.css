@@ -92,17 +92,17 @@ body.darkmode #key:hover{
 }
 
 body.darkmode .recommended, body.darkmode .recommended a{
-    background: #318562;
+    background: rgb(65, 110, 129);
     color: #eee;
 }
 
 body.darkmode .unfamiliar, body.darkmode .unfamiliar a{
-    background: rgb(68, 81, 117);
+    background: rgb(89, 71, 109);
     color: #eee;
 }
 
 body.darkmode .notrecommended, body.darkmode .notrecommended a{
-   background: #b37e0d;
+   background: #b36b0d;
    color: #eee;
 }
 
