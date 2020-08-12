@@ -348,6 +348,7 @@ p{
 }
 
 p, ul li{
+  font-size: 0.95em;
   line-height: 1.5em;
 }
 
