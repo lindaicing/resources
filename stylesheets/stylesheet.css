@@ -504,6 +504,9 @@ em{
   .breakpoint{
     display: inline;
   }
+  #home .cards article{
+    margin-right: 0;
+  }
 }
 
 @media only screen and (max-width: 600px) {
