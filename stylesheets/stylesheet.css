@@ -456,6 +456,7 @@ em{
     margin-top: 20px;
   }
   #keymoji{
+    cursor: pointer;
     display: block;
     position: fixed;
     font-size: 2em;
