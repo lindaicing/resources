@@ -29,7 +29,10 @@
 }
 
 .fa-moon{
+    display: block;
+    justify-content: center;
     left: 30px;
+    min-width: 28px;
     background: rgb(112, 112, 94);
 }
 
@@ -93,7 +96,7 @@ body.darkmode #key:hover{
 
 body.darkmode .recommended, body.darkmode .recommended a{
     background: rgb(65, 129, 129);
-    color: #eee;
+    color: #eeee;
 }
 
 body.darkmode .unfamiliar, body.darkmode .unfamiliar a{
